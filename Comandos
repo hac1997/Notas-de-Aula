@@ -1,16 +1,47 @@
 Aqui vai uma lista de comandos do Git.
-git init - Inicia o Git
 
-git config --global user.email "me@example.com"
-git config --global user.name "My name"
+control + d = sai de um comando.
 
-Os comandos acima configuram o teu usuário no git. 
+> git init - Inicia o Git
 
-git add README.md
+> git config --global user.email "me@example.com"
+> git config --global user.name "My name"
+Os comandos acima configuram o teu usuário no git. Por exemplo, quando damos um git log, aparece os dados de quem fez os commits.
+
+> git add README.md
 Autoexplicativo.
 
-git commit -m "first commit"
-git branch -M main
+> git status 
+Dá o status atual, por exemplo, informações da branch, arquivos no staged, etc...
+
+> git log
+Histórico de mensagens. É 
+
+> git branch -M main
+Esse comando é interessante. Começamos na branch master e usamos esse comando para renomear a branch para main, porque master pode dar algum problema.
+
+> git branch ASASA
+Cria uma branch com o nome ASASA. 
+
+> git checkout ASASA
+Muda de Branch para ASASA. Para mudar de volta para a branch master, dê o cmando git checkout master.
+
+> git add nomedoarquivo
+Põe o arquivo no staged.
+
+> git commit -m "first commit"
+Dá o commit
+
+> git merge ASASA
+Você tem de estar na branch main/master para dar esse comando
+
+> git clone https[endereço da web page do direito do git]
+
+> git fetch 
+traz alterações do repo remoto mas não atualiza os arquivos
+> git pull 
+traz alterações do repo remoto e atualiza os arquivos
+
 git remote add origin https://github.com/hac1997/Notas-de-Aula.git
 git push -u origin main
 
