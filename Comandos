@@ -1,6 +1,14 @@
 Aqui vai uma lista de comandos do Git.
-git init
+git init - Inicia o Git
+
+git config --global user.email "me@example.com"
+git config --global user.name "My name"
+
+Os comandos acima configuram o teu usuário no git. 
+
 git add README.md
+Autoexplicativo.
+
 git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/hac1997/Notas-de-Aula.git
